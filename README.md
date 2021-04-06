@@ -58,3 +58,11 @@ mínimo 2015.
 
 ## 3. Instalação
 
+## 4. Acesso a área administrativa
+
+### 4.1. Criar super usuário
+```bash
+python manage.py createsuperuser
+```
+#### 4.1.1 Preencha os campos de Username, email e Passward - na shell - quando pedido
+

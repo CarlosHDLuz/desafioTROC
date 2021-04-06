@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Produto, CupomFixo, CupomPercentual
+
+admin.site.register(Produto)
+admin.site.register(CupomFixo)
+admin.site.register(CupomPercentual)
+
